@@ -29,7 +29,7 @@ services:
         ports:
             - "3307:3306"
         environment:
-            MYSQL_DATABASE: rent_app  # Create a database named 'laravel'
+            MYSQL_DATABASE: rent  # Create a database named 'laravel'
             MYSQL_ROOT_PASSWORD: root  # Set the root password for MySQL
         volumes:
             - rent_app_db:/var/lib/mysql  # Persist MySQL data
